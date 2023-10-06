@@ -21,8 +21,8 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 cv2.namedWindow("Video Stream")
 success, img = cap.read()
 
-blueMin = (0, 0, 200)
-blueMax = (100, 90, 200)
+blueMin = (100, 0, 0)
+blueMax = (140, 255, 255)
 
 while success and cv2.waitKey(1) == -1:
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
