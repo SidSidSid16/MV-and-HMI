@@ -6,9 +6,6 @@ Created on Fri Oct  6 10:40:13 2023
 """
 
 import cv2
-import os
-
-os.environ["OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS"] = "0"
 
 cap = cv2.VideoCapture(1)
 if not cap.isOpened():
@@ -21,7 +18,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 cv2.namedWindow("Video Stream")
 success, img = cap.read()
 
-blueMin = (100, 0, 0)
+blueMin = (100, 100, 0)
 blueMax = (140, 255, 255)
 
 while success and cv2.waitKey(1) == -1:
