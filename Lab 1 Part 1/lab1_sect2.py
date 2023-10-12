@@ -9,7 +9,7 @@ Created on Fri Oct  6 09:30:11 2023
 import cv2
 import numpy as np
 
-img = cv2.imread('gradient.png')
+img = cv2.imread('/Users/sid/Documents/Uni/Course/Year 4/Machine Vision and Human Machine Interaction/Lab 1 Part 1/gradient.png')
 
 cv2.namedWindow("Image")
 cv2.imshow("Image", img)

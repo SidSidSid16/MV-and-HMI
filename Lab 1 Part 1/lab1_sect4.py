@@ -11,7 +11,7 @@ import os
 os.environ["OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS"] = "0"
 
 
-img = cv2.imread('gradient.png')
+img = cv2.imread('/Users/sid/Documents/Uni/Course/Year 4/Machine Vision and Human Machine Interaction/Lab 1 Part 1/gradient.png')
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
