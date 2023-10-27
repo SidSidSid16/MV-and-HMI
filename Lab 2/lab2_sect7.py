@@ -14,7 +14,13 @@ def draw(img, originpts, imgpts):
     img = cv2.line(img, origin, tuple(imgpts[1].ravel().astype(int)), (0,255,0), 5)
     img = cv2.line(img, origin, tuple(imgpts[2].ravel().astype(int)), (0,0,255), 5)
     return img
+
 axis = np.float32([[3,0,0], [0,3,0], [0,0,-3]]).reshape(-1,3)
+
+mtx = np.genfromtxt('intrinsic_matrix.csv', delimiter=',')
+dist = np.genfromtxt('distortion_coeff.csv', delimiter=',')
+rvecs = np.genfromtxt('rotation_vect.csv', delimiter=',')
+tvecs = np.genfromtxt('translation_vect.csv', delimiter=',')
 
 # Create a VideoCapture instance
 cap = cv2.VideoCapture(1)
@@ -69,7 +75,7 @@ cv2.destroyWindow("Video Stream")
 cap.release()
 
 # Calibrate camera
-ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], 0, (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.0001))
+# ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], 0, (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.0001))
 # Print calibration results
 print("Intrinsic Matrix: \n")
 print(mtx)
@@ -88,25 +94,25 @@ for imgnum, img in enumerate(imglist):
     projpoints, jacobian = cv2.projectPoints(axis, rvecs, tvecs, mtx, dist)
     img = draw(img, imgpoints[imgnum], projpoints)
     cv2.imwrite("Lab 2/img/Image%03d.png" % (imgnum), img)
+    if (len(imglist) > 1):
+        gray1 = cv2.cvtColor(imglist[-1], cv2.COLOR_BGR2GRAY)
+        gray2 = cv2.cvtColor(imglist[-2], cv2.COLOR_BGR2GRAY)
+        stereo = cv2.StereoBM.create(numDisparities = 16, blockSize = 21)
+        disparity = stereo.compute(gray1, gray2)
+#        matplotlib.pyplot.imshow(disparity, 'gray')
+#        matplotlib.pyplot.show()
+        disparity = cv2.normalize(disparity, None, alpha=0,
+        beta=1, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_32F)
 
 # with open('Lab 2/intrinsic_matrix.csv', 'w') as file:
 with open('intrinsic_matrix.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerows(mtx)
-with open('distortion_coeff.csv', 'w') as file:
-    writer = csv.writer(file)
-    writer.writerows(dist)
-with open('rotation_vect.csv', 'w') as file:
-    writer = csv.writer(file)
-    writer.writerows(rvecs)
-with open('translation_vect.csv', 'w') as file:
-    writer = csv.writer(file)
-    writer.writerows(tvecs)
 
 h, w = img.shape[:2]
-newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w,h), 1, (w,h))
+#newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w,h), 1, (w,h))
+newcameramtx, (x, y, w, h) = cv2.getOptimalNewCameraMatrix(mtx, dist, (w,h), 1, (w,h))
 dst = cv2.undistort(img, mtx, dist, None, newcameramtx)
-x, y, w, h = roi
 dst = dst[y:y+h, x:x+w]
 # cv2.imwrite('Lab 2/calibresultCVUndistort.png', dst)
 cv2.imwrite('calibresultCVUndistort.png', dst)
