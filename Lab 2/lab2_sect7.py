@@ -17,10 +17,10 @@ def draw(img, originpts, imgpts):
 
 axis = np.float32([[3,0,0], [0,3,0], [0,0,-3]]).reshape(-1,3)
 
-mtx = np.genfromtxt('intrinsic_matrix.csv', delimiter=',')
-dist = np.genfromtxt('distortion_coeff.csv', delimiter=',')
-rvecs = np.genfromtxt('rotation_vect.csv', delimiter=',')
-tvecs = np.genfromtxt('translation_vect.csv', delimiter=',')
+mtx = np.genfromtxt('Lab 2/intrinsic_matrix.csv', delimiter=',')
+dist = np.genfromtxt('Lab 2/distortion_coeff.csv', delimiter=',')
+rvecs = np.genfromtxt('Lab 2/rotation_vect.csv', delimiter=',')
+tvecs = np.genfromtxt('Lab 2/translation_vect.csv', delimiter=',')
 
 # Create a VideoCapture instance
 cap = cv2.VideoCapture(1)

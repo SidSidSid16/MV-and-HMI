@@ -6,7 +6,7 @@ os.environ['OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS'] = '0'
 
 cap = cv2.VideoCapture(1, cv2.CAP_DSHOW, (cv2.CAP_PROP_HW_ACCELERATION, cv2.VIDEO_ACCELERATION_ANY))
 
-mtx = np.genfromtxt('intrinsic_matrix.csv', delimiter=',')
+mtx = np.genfromtxt('Lab 2/intrinsic_matrix.csv', delimiter=',')
 # dist = np.genfromtxt('distortion_coeff.csv', delimiter=',')
 # rvecs = np.genfromtxt('rotation_vect.csv', delimiter=',')
 # tvecs = np.genfromtxt('translation_vect.csv', delimiter=',')
