@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.4)  5 JAN 2024 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.4)  5 JAN 2024 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,13 +572,13 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  9268 strings out of 476025
  202712 string characters out of 5790018
- 3062388 words of memory out of 5000000
+ 3063388 words of memory out of 5000000
  29639 multiletter control sequences out of 15000+600000
  547551 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,8n,77p,1841b,1866s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Y3890959_MV-HMI_Report.pdf (12 pages, 2930899 bytes).
+Output written on Y3890959_MV-HMI_Report.pdf (12 pages, 2931027 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
