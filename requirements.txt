@@ -6,10 +6,12 @@ charset-normalizer==3.3.2
 cloudpickle==2.2.1
 coloredlogs==15.0.1
 comm==0.1.4
+consoledraw==2.3.13
 contourpy==1.2.0
 cycler==0.12.1
 debugpy==1.8.0
 decorator==5.1.1
+dlib==19.24.2
 executing==2.0.0
 filelock==3.13.1
 flatbuffers==23.5.26
@@ -17,6 +19,7 @@ fonttools==4.45.1
 fsspec==2023.12.1
 humanfriendly==10.0
 idna==3.6
+imutils==0.5.4
 ipykernel==6.25.2
 ipython==8.16.1
 jedi==0.19.1
@@ -48,6 +51,10 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
 Pygments==2.16.1
 pyparsing==3.1.1
+PyQt6==6.6.1
+PyQt6-Qt6==6.6.1
+PyQt6-sip==13.6.0
+pyqtgraph==0.13.3
 python-dateutil==2.8.2
 pyzmq==25.1.1
 requests==2.31.0

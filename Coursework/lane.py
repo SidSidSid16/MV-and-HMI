@@ -44,6 +44,10 @@ USE_CONSOLEDRAW = True          # If true, paramters are output in a user-friend
 #            that's used to start this script is big enough for the output, the program will fail to start with an error:
 #            "ValueError: The console is too small to display the buffer."
 
+# NOTE: this program will start in paused mode, therefore when executed the video feed will pause on the first frame and
+#       will not start until you press the 's' key. This feature gives the user enough time to arrange the output windows
+#       before starting.
+
 # instantiate console from consoledraw package
 if USE_CONSOLEDRAW:
     console = Console()
