@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.4)  21 JAN 2024 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.4)  22 JAN 2024 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/sid/Documents/Uni/Course/Year 4/Machine Vision and Human Machine Interaction/MV-and-HMI/Coursework/Report/MV-HMI_Report.tex"
-(/Users/sid/Documents/Uni/Course/Year 4/Machine Vision and Human Machine Interaction/MV-and-HMI/Coursework/Report/MV-HMI_Report.tex
+**"/Users/sid/Documents/Uni/Course/Year 4/Machine Vision and Human Machine Interaction/MV-and-HMI/Coursework/Report/MV-HMI_Report_Sidharth-Shanmugam.tex"
+(/Users/sid/Documents/Uni/Course/Year 4/Machine Vision and Human Machine Interaction/MV-and-HMI/Coursework/Report/MV-HMI_Report_Sidharth-Shanmugam.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -217,8 +217,8 @@ Package translations Info: No language package found. I am going to use `english
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box66
-) (./MV-HMI_Report.aux)
-\openout1 = `MV-HMI_Report.aux'.
+) (./MV-HMI_Report_Sidharth-Shanmugam.aux)
+\openout1 = `MV-HMI_Report_Sidharth-Shanmugam.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -265,298 +265,288 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 10.
 \c@lstlisting=\count297
-
-
-LaTeX Warning: No \author given.
-
-
-LaTeX Warning: No \author given.
-
-
-LaTeX Warning: No \author given.
-
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+ [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
 <assets/lane-detection-flow.png, id=10, 594.22pt x 574.145pt>
 File: assets/lane-detection-flow.png Graphic file (type png)
 <use assets/lane-detection-flow.png>
-Package pdftex.def Info: assets/lane-detection-flow.png  used on input line 54.
+Package pdftex.def Info: assets/lane-detection-flow.png  used on input line 61.
 (pdftex.def)             Requested size: 258.0pt x 249.2955pt.
 <assets/LDS_plot.png, id=12, 979.2585pt x 552.8655pt>
 File: assets/LDS_plot.png Graphic file (type png)
 <use assets/LDS_plot.png>
-Package pdftex.def Info: assets/LDS_plot.png  used on input line 62.
+Package pdftex.def Info: assets/LDS_plot.png  used on input line 69.
 (pdftex.def)             Requested size: 258.0pt x 145.65662pt.
  [2 <./assets/lane-detection-flow.png> <./assets/LDS_plot.png>]
 <assets/LD_Avg-FPT.png, id=18, 1159.167pt x 581.007pt>
 File: assets/LD_Avg-FPT.png Graphic file (type png)
 <use assets/LD_Avg-FPT.png>
-Package pdftex.def Info: assets/LD_Avg-FPT.png  used on input line 74.
+Package pdftex.def Info: assets/LD_Avg-FPT.png  used on input line 81.
 (pdftex.def)             Requested size: 258.0pt x 129.31133pt.
 <assets/LD_Avg-LPV.png, id=19, 1159.167pt x 581.007pt>
 File: assets/LD_Avg-LPV.png Graphic file (type png)
 <use assets/LD_Avg-LPV.png>
-Package pdftex.def Info: assets/LD_Avg-LPV.png  used on input line 80.
+Package pdftex.def Info: assets/LD_Avg-LPV.png  used on input line 87.
 (pdftex.def)             Requested size: 258.0pt x 129.31133pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 85.
+(Font)              <9> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 85.
+(Font)              <6> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 85.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 85.
+(Font)              <5> on input line 92.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 92.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <assets/eye-detection-flow.png, id=20, 594.22pt x 574.145pt>
 File: assets/eye-detection-flow.png Graphic file (type png)
 <use assets/eye-detection-flow.png>
-Package pdftex.def Info: assets/eye-detection-flow.png  used on input line 94.
+Package pdftex.def Info: assets/eye-detection-flow.png  used on input line 101.
 (pdftex.def)             Requested size: 258.0pt x 249.2955pt.
  [3 <./assets/LD_Avg-FPT.png> <./assets/LD_Avg-LPV.png>]
 <assets/gaze-detection.png, id=28, 1358.57562pt x 435.12563pt>
 File: assets/gaze-detection.png Graphic file (type png)
 <use assets/gaze-detection.png>
-Package pdftex.def Info: assets/gaze-detection.png  used on input line 106.
+Package pdftex.def Info: assets/gaze-detection.png  used on input line 113.
 (pdftex.def)             Requested size: 258.0pt x 82.62825pt.
 <assets/Eye_Avg-FPT.png, id=29, 1159.167pt x 581.007pt>
 File: assets/Eye_Avg-FPT.png Graphic file (type png)
 <use assets/Eye_Avg-FPT.png>
-Package pdftex.def Info: assets/Eye_Avg-FPT.png  used on input line 112.
+Package pdftex.def Info: assets/Eye_Avg-FPT.png  used on input line 119.
 (pdftex.def)             Requested size: 258.0pt x 129.31133pt.
 <assets/Gagan-eye.png, id=30, 410.53375pt x 348.30125pt>
 File: assets/Gagan-eye.png Graphic file (type png)
 <use assets/Gagan-eye.png>
-Package pdftex.def Info: assets/Gagan-eye.png  used on input line 120.
+Package pdftex.def Info: assets/Gagan-eye.png  used on input line 127.
 (pdftex.def)             Requested size: 258.0pt x 218.88885pt.
+
+Underfull \vbox (badness 1571) has occurred while \output is active []
+
  [4 <./assets/eye-detection-flow.png> <./assets/gaze-detection.png> <./assets/Eye_Avg-FPT.png> <./assets/Gagan-eye.png>] [5]
-Underfull \hbox (badness 2894) in paragraph at lines 165--166
+Underfull \hbox (badness 2894) in paragraph at lines 172--173
 []\OT1/ptm/m/n/9 Intuitiveness: Sim-plic-ity and straight-for-ward guid-ance are
  []
 
 <assets/arrow-demo.png, id=41, 1188.44pt x 594.22pt>
 File: assets/arrow-demo.png Graphic file (type png)
 <use assets/arrow-demo.png>
-Package pdftex.def Info: assets/arrow-demo.png  used on input line 182.
+Package pdftex.def Info: assets/arrow-demo.png  used on input line 189.
 (pdftex.def)             Requested size: 258.0pt x 128.997pt.
 <assets/car-demo.png, id=42, 469.755pt x 240.9pt>
 File: assets/car-demo.png Graphic file (type png)
 <use assets/car-demo.png>
-Package pdftex.def Info: assets/car-demo.png  used on input line 188.
+Package pdftex.def Info: assets/car-demo.png  used on input line 195.
 (pdftex.def)             Requested size: 258.0pt x 132.30792pt.
-[6 <./assets/arrow-demo.png> <./assets/car-demo.png>]
-Underfull \vbox (badness 4995) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+[6 <./assets/arrow-demo.png> <./assets/car-demo.png>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 []\OT1/ptm/m/n/8 "Lane de-par-ture warn-ing sys-tem," Wikipedia,
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 232--233
+Underfull \hbox (badness 4144) in paragraph at lines 239--240
 []\OT1/ptm/m/n/8 "Press cor-ner," Eu-ro-pean Com-mis-sion - Eu-ro-pean Com-mis-sion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/8 https://ec.europa.eu/commission/presscorner/detail/en/ip[]22[]4312
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 238--239
+Underfull \hbox (badness 2753) in paragraph at lines 245--246
 []\OT1/ptm/m/n/8 A. R, \Hough trans-forms in im-age pro-cess-ing," Scaler Top-ics,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 \OT1/ptm/m/n/8 https://www.scaler.com/topics/hough-transform-in-image-processing/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 []\OT1/ptm/m/n/8 RideScapes, \ASMR high-way driv-ing at night (no talk-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 \OT1/ptm/m/n/8 ing, no mu-sic) - bu-san to Seoul, Ko-rea," YouTube,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 \OT1/ptm/m/n/8 https://www.youtube.com/watch?v=nABR88G[]2cE (ac-cessed Dec.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 []\OT1/ptm/m/n/8 A. Rose-brock, \Zero-parameter, au-to-matic canny edge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/ptm/m/n/8 de-tec-tion with python and opencv," Py-Im-age-Search,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/ptm/m/n/8 https://pyimagesearch.com/2015/04/06/zero-parameter-automatic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/ptm/m/n/8 canny-edge-detection-with-python-and-opencv/ (ac-cessed Dec. 30,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 []\OT1/ptm/m/n/8 \Hough Line trans-form," OpenCV, https://docs.opencv.org/3.4/d9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 []\OT1/ptm/m/n/8 \Driver mon-i-tor-ing sys-tem," Wikipedia,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 \OT1/ptm/m/n/8 https://en.wikipedia.org/wiki/Driver[]monitoring[]system (ac-cessed
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 256--257
+Underfull \hbox (badness 3179) in paragraph at lines 263--264
 []\OT1/ptm/m/n/8 \Trained 68-Point Fa-cial Land-mark Model," Dlib C++ Li-brary,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OT1/ptm/m/n/8 http://dlib.net/files/shape[]predictor[]68[]face[]landmarks.dat.bz2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 \OT1/ptm/m/n/8 Geeks-forGeeks, https://www.geeksforgeeks.org/eye-blink-detection-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 []\OT1/ptm/m/n/8 \CV::Simpleblobdetector class ref-er-ence," OpenCV,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 \OT1/ptm/m/n/8 https://docs.opencv.org/3.4/d0/d7a/classcv[]1[]1SimpleBlobDetector.html
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 \OT1/ptm/m/n/8 Gaze," GitHub, https://github.com/GagandeepMalhotra/Building-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \OT1/ptm/m/n/8 releases/how-audis-light-digitization-is-pointing-the-way-toward-the-
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 268--269
+Underfull \hbox (badness 1881) in paragraph at lines 275--276
 []\OT1/ptm/m/n/8 M. Dil-lon, \White Noise vs. Brown noise: Which one is best
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []\OT1/ptm/m/n/8 Passport BMW, \How to per-fume the in-te-rior
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/ptm/m/n/8 of a BMW with Am-bi-ent Air Pack-age," BMW,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/ptm/m/n/8 https://www.passportbmw.com/blogs/846/uncategorized/how-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/ptm/m/n/8 perfume-the-interior-of-a-bmw-with-ambient-air-package/ (ac-cessed
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 272--273
+Underfull \hbox (badness 2401) in paragraph at lines 279--280
 \OT1/ptm/m/n/8 WebMD, https://www.webmd.com/sleep-disorders/features/best-scents-
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 280--281
+Underfull \hbox (badness 2027) in paragraph at lines 287--288
 \OT1/ptm/m/n/8 eye-tracking tech-nol-ogy to check driver at-ten-tive-ness could help
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 \OT1/ptm/m/n/8 to sur-vey, https://www.prnewswire.com/apac/news-releases/majority-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 \OT1/ptm/m/n/8 of-uk-road-users-believe-new-eye-tracking-technology-to-check-driver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 \OT1/ptm/m/n/8 attentiveness-could-help-improve-road-safety-but-public-awareness-
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 280--281
+Underfull \hbox (badness 6510) in paragraph at lines 287--288
 \OT1/ptm/m/n/8 remains-low-according-to-survey-301838223.html (ac-cessed Jan. 4,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 []\OT1/ptm/m/n/8 A. Rose-brock, \OPENCV shape de-tec-tion," Py-Im-age-Search,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 \OT1/ptm/m/n/8 https://pyimagesearch.com/2016/02/08/opencv-shape-detection/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 []\OT1/ptm/m/n/8 H. I. Adikari, \His-hanIn-dra-jith/Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 \OT1/ptm/m/n/8 rowDi-rec-tion-PythonOpenCV," GitHub,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 \OT1/ptm/m/n/8 https://github.com/HishanIndrajith/ArrowDirectionPythonOpenCV
  []
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (./code/lane.py [8]
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 59.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 64.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
-LaTeX Font Info:    Trying to load font information for OML+ptm on input line 129.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 134.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 129.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 134.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -581,17 +571,17 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[12] (./MV-HMI_Report.aux) ) 
+[12] (./MV-HMI_Report_Sidharth-Shanmugam.aux) ) 
 Here is how much of TeX's memory you used:
- 9267 strings out of 476025
- 202607 string characters out of 5790018
- 3092388 words of memory out of 5000000
+ 9268 strings out of 476025
+ 202822 string characters out of 5790018
+ 3054388 words of memory out of 5000000
  29639 multiletter control sequences out of 15000+600000
- 546473 words of font info for 90 fonts, out of 8000000 for 9000
+ 547551 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,8n,77p,1832b,1866s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,8n,77p,1851b,1866s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MV-HMI_Report.pdf (12 pages, 2930817 bytes).
+Output written on MV-HMI_Report_Sidharth-Shanmugam.pdf (12 pages, 2932426 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

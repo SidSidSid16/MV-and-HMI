@@ -1,3 +1,8 @@
+"""
+Author: Sidharth Shanmugam
+        ss2985@york.ac.uk
+"""
+
 import cv2
 import numpy as np
 import time
